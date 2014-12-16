@@ -24,6 +24,10 @@ describe 'fizzbuzz' do
 			expect(is_divisible_by_three?(2)).to eq(false)
 		end
 
+		it "5" do
+			expect(is_divisible_by_five?(4)).to eq(false)
+		end
+
 	end
 
 end
