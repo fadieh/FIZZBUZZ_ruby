@@ -1,13 +1,17 @@
 def is_divisible_by_three?(num)
-	num % 3 == 0
+	is_divisible(3, num)
 end
 
 def is_divisible_by_five?(num)
-	num % 5 == 0
+	is_divisible(5, num)
 end
 
 def is_divisible_by_fifteen?(num)
-	num % 15 == 0
+	is_divisible(15, num)
+end
+
+def is_divisible(divisor, num)
+	num % divisor == 0
 end
 
 def fizzbuzz(num)
