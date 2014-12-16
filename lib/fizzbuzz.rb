@@ -20,3 +20,4 @@ def fizzbuzz(num)
 	return "Buzz" if is_divisible_by_five?(num)
 	return num.to_s
 end
+
