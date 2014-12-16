@@ -18,4 +18,12 @@ describe 'fizzbuzz' do
 	
 	end
 
+	context 'knows that a number is not divisible by' do
+
+		it "3" do
+			expect(is_divisible_by_three?(2)).to eq(false)
+		end
+
+	end
+
 end
